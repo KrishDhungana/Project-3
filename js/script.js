@@ -1,1 +1,2 @@
-function api(){
+// Initialize and add the map
+function initMap() {
