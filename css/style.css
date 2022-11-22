@@ -210,4 +210,21 @@
     	margin: 0;
   		padding: 0px;
   	}
+  	.header-li{
+  		border-right: 1px solid white;
+  		display: inline-block;
+  		font-size:5px;
+	}
+	.header-a{
+ 	 display: block;
+ 	 color: white;
+ 	 font-size:20px;
+ 	 text-align: center;
+ 	 padding: 10px;
+ 	 text-decoration: none;
+	}
+	.header-a:hover {
+  		background-color: orange;
+  		color: white;
+	}
 }
