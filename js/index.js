@@ -14,12 +14,14 @@ function initMap() {
 	new google.maps.Marker({
         position: new google.maps.LatLng(45.47859954420433, 9.227346521619015),
         map,
+        label: "Milan, Italy",
         animation: google.maps.Animation.DROP
 	});
 	
 	new google.maps.Marker({
         position: new google.maps.LatLng(51.5072,0.1276),
         map,
+        label: "London, England",
         animation: google.maps.Animation.DROP
 	});
 

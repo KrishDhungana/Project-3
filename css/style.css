@@ -180,12 +180,19 @@
   text-align: center;
 }
 
+#map { 
+	width:100%;
+	height:400px;
+	background-color: grey;
+}
+
 /* Video Code */
 .video{
   width:320px;
   height:240px;
 }
 
+/* Media Queries*/
 @media screen and (max-width: 900px) and (min-width: 600px){
 	.index-title{
   		font-size: 30px;
@@ -203,10 +210,4 @@
     	margin: 0;
   		padding: 0px;
   	}
-}
-
-#map { 
-	width:100%;
-	height:400px;
-	background-color: grey;
 }
